@@ -1,0 +1,109 @@
+body {
+    background-image: url("img/bg.png");
+    background-position: top center;
+  }
+  
+  h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  h2,
+  h3 {
+    margin: 40px 0px;
+  }
+  
+  button {
+    border-radius: 20px;
+    background: linear-gradient(
+      0deg,
+      rgba(237, 249, 255, 1) 0%,
+      rgba(107, 246, 255, 0.9) 20%,
+      rgba(60, 188, 254, 1) 40%,
+      rgba(11, 114, 254, 1) 75%,
+      rgba(7, 22, 161, 0.9023984593837535) 95%
+    );
+    color: black;
+    border: 2px solid rgb(30, 184, 231);
+    text-align: center;
+    margin: 8px 2px;
+    padding: 0px 15px;
+    cursor: pointer;
+  }
+  
+  hr {
+    border: 0px;
+    background: blue;
+    height: 1px;
+    width: 85%;
+  }
+  
+  ::placeholder {
+    text-align: center;
+  }
+  
+  .miasto {
+    border-radius: 20px;
+  }
+  
+  #ramka1 {
+    background-image: url("img/bn.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  
+    border: 2px solid rgba(70, 252, 210, 0.6);
+    height: 350px;
+    text-align: center;
+    width: 100%;
+    /*border-radius: 120px;*/
+    border-radius: 150px 5px 150px 5px;
+    padding-top: 75px;
+  }
+  
+  #ramka2 {
+    background-image: url("img/bn.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(blueviolet, darkblue, blue, red, green, yellow)
+      1;
+  
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 55px;
+    border-radius: 30px;
+  }
+  
+  #ramka3 {
+    background: linear-gradient(
+      45deg,
+      rgba(237, 249, 255, 1) 0%,
+      rgba(107, 246, 255, 0.9) 20%,
+      rgba(60, 188, 254, 1) 40%,
+      rgba(11, 114, 254, 1) 75%,
+      rgba(7, 22, 161, 0.9023984593837535) 95%
+    );
+    border: 2px solid rgba(70, 252, 210, 0.6);
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 5px 15px;
+  }
+  
+  #ramka1:hover,
+  #ramka3:hover {
+    border: 2px solid orange;
+  }
+  
