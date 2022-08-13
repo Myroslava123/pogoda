@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Parcel Sandbox</title>
+    <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <h1>
+      Weather app
+    </h1>
+    <h2>
+      <form id="szukajka">
+        <button>Search</button>
+        <input
+          class="miasto"
+          id="wpiszmiasto"
+          type="search"
+          placeholder="Enter city"
+        />
+      </form>
+    </h2>
+
+    <h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div id="ramka1">
+              <img src="img/sun.png" height="180ox" /><br />
+            </div>
+          </div>
+
+          <div class="col-sm-8">
+            <div id="ramka2">
+              <div id="miastoo"></div>
+              <hr />
+              <div id="datadozmiany"></div>
+              <hr />
+              <div><span id="temperaturka">30</span>°C</div>
+              <hr />
+              <div>🌬 <span id="wiater"></span> km/h</div>
+              <div id="humidity" %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </h3>
+
+    <h4>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="ramka3">
+              <img src="img/storm.png" width="100" /><br />
+              Tue<br />
+              15°C
+            </div>
+          </div>
+          <div class="col">
+            <div id="ramka3">
+              <img src="img/snow.png" width="100" /><br />
+              Wed<br />
+              3°C
+            </div>
+          </div>
+          <div class="col">
+            <div id="ramka3">
+              <img src="img/rain.png" width="100" /> <br />
+              Thu<br />
+              11°C
+            </div>
+          </div>
+          <div class="col">
+            <div id="ramka3">
+              <img src="img/clouds.png" width="100" /><br />
+              Fri<br />
+              18°C<br />
+            </div>
+          </div>
+          <div class="col">
+            <div id="ramka3">
+              <img src="img/cloudy.png" width="100" /> <br />
+              Sat<br />
+              23°C
+            </div>
+          </div>
+        </div>
+      </div>
+    </h4>
+    <script src="src/index.js"></script>
+  </body>
+</html>
