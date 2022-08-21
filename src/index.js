@@ -22,6 +22,7 @@ function wyszukaj(city) {
 
 function wynik(response) {
   document.querySelector("#miastoo").innerHTML = response.data.name;
+  document.querySelector("#icon").setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   document.querySelector("#temperaturka").innerHTML = Math.round(
     response.data.main.temp
   );
