@@ -1,4 +1,4 @@
-let dzien = new Date().toLocaleString("default", { weekday: "long" });
+let dzien = new Date().toLocaleString("en-EN", { weekday: "long" });
 let godzina = new Date().toLocaleTimeString();
 let czas = `${dzien} ${godzina}`;
 let dnityg = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
