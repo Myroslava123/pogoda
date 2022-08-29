@@ -17,6 +17,10 @@ body {
   h3 {
     margin: 40px 0px;
   }
+
+  h5 {     
+    color: whitesmoke;
+    text-align: center;}
   
   button {
     border-radius: 20px;
@@ -106,4 +110,7 @@ body {
   #ramka3:hover {
     border: 2px solid orange;
   }
-  
+
+  #pjutro0 {
+  height: 180px
+}
